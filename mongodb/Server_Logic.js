@@ -7,6 +7,7 @@ const jwtSecret = 'babi ';
 const otpGenerator = require('otp-generator'); // You may need to install this package
 const logger = require('../logger/logger'); // Import the logger module
 
+
 const base64Img = require('base64-img');
 // Import the Complaint model
 const Complaint = require('./models/Complaints'); // Assuming your model is in a separate file
